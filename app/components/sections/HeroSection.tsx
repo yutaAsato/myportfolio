@@ -17,10 +17,10 @@ export const HeroSection = ({ as = "header" }: HeroSectionProps) => {
     <Grid as={as} className="lg: mb-24 h-auto pt-24 lg:min-h-[40rem] lg:pb-12">
       <div className="relative col-span-full mb-12 lg:mb-0">
         <div className="lg:pb-18 relative mx-auto max-w-7xl px-4 pt-16 pb-8 sm:px-6 sm:pt-24 sm:pb-14 lg:px-8 lg:pt-32">
-          <div className="relative col-span-full min-h-full pb-40 sm:overflow-hidden sm:rounded-2xl">
+          <div className="relative col-span-full min-h-full  sm:overflow-hidden sm:rounded-2xl">
             <div className="absolute inset-0">
               <img
-                className="h-full w-full object-none "
+                className="h-full w-full object-contain lg:object-none  "
                 src="https://i.ibb.co/DpbtPxT/terra-Kong-Bubble.jpg"
                 alt="Sonic Youth On Stage"
               />
@@ -28,13 +28,13 @@ export const HeroSection = ({ as = "header" }: HeroSectionProps) => {
               <div className="absolute inset-0 bg-[color:#56757cca] mix-blend-multiply" />
               {/* <div className="absolute inset-0 bg-[color:#252525f1] mix-blend-soft-light" /> */}
             </div>
-            <div className="relative  pt-16 pb-32 sm:pb-14 lg:pt-20 ">
-              <div className="flex justify-between">
-                <div>
+            <div className="relative pt-16 pb-32 sm:pb-14 lg:pt-20 ">
+              <div className="flex-col justify-between sm:flex lg:flex-row">
+                <div className="pb-44">
                   <h1 className="flex text-left text-4xl font-extrabold italic tracking-tight text-white drop-shadow-2xl sm:text-5xl lg:text-7xl">
                     <span className=" block ">Yuta Asato</span>
                   </h1>
-                  <p className="text-shadow-md mt-6 max-w-xs text-left text-xl text-white ">
+                  <p className="text-shadow-md mt-6 max-w-xs pb-40 text-left text-xl text-white ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -45,8 +45,8 @@ export const HeroSection = ({ as = "header" }: HeroSectionProps) => {
                     deserunt mollit anim id est laborum
                   </p>
                 </div>
-                <div className="mr-30 pt-20 text-4xl font-bold italic  text-white">
-                  <h2 className=" mt-12 text-left ">#FrontEnd Developer</h2>
+                <div className="mr-30 text-4xl font-bold italic text-white  lg:pt-20">
+                  <h2 className=" text-left lg:mt-12 ">#FrontEnd Developer</h2>
                   <h2 className=" mt-12 text-left ">#Financial Trader</h2>
                   <h2 className=" mt-12 text-left ">#Music Producer</h2>
                 </div>
