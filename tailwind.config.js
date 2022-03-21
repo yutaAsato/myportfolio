@@ -1,7 +1,10 @@
 module.exports = {
+  mode: "jit",
   content: ["./app/**/*.{ts,tsx,jsx,js}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["Avenir Next LT Pro", "sans-serif"],
+    },
   },
   plugins: [],
 };
