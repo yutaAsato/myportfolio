@@ -22,7 +22,7 @@ export const HeroSection = ({ as = "header" }: HeroSectionProps) => {
               <img
                 className="h-full w-full object-contain lg:object-none  "
                 src="https://i.ibb.co/DpbtPxT/terra-Kong-Bubble.jpg"
-                alt="Sonic Youth On Stage"
+                alt="terrkong"
               />
               <div className="absolute inset-0 bg-[color:#000000] mix-blend-overlay" />
               <div className="absolute inset-0 bg-[color:#56757cca] mix-blend-multiply" />
@@ -30,19 +30,19 @@ export const HeroSection = ({ as = "header" }: HeroSectionProps) => {
             </div>
             <div className="relative pt-16 pb-32 sm:pb-14 lg:pt-20 ">
               <div className="flex-col justify-between sm:flex lg:flex-row">
-                <div className="pb-44">
-                  <h1 className="flex text-left text-4xl font-extrabold italic tracking-tight text-white drop-shadow-2xl sm:text-5xl lg:text-7xl">
+                <div className="pb-44 lg:pb-0">
+                  <h1 className="flex text-left text-5xl font-extrabold italic tracking-tight text-white drop-shadow-2xl sm:text-5xl lg:text-7xl">
                     <span className=" block ">Yuta Asato</span>
                   </h1>
-                  <p className="text-shadow-md mt-6 max-w-xs pb-40 text-left text-xl text-white ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
+                  <p className="text-shadow-md mt-6 max-w-xs pb-48 text-left text-xl text-white lg:pb-0">
+                    I'm a self taught Frontend developer based in Tokyo.
+                    Currently working as a React developer for a startup which
+                    provides SaaS and Fintech solutions in the investment
+                    industry. I'm a self taught financial trader and have been
+                    actively trading the Japanese derivatives market since 2012.
+                    I'm also classically trained on the piano and have worked as
+                    a music producer in London. I enjoy playing the piano or
+                    making DnB/Bass music in my free time.
                   </p>
                 </div>
                 <div className="mr-30 text-4xl font-bold italic text-white  lg:pt-20">
